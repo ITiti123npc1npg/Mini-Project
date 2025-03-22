@@ -1,0 +1,650 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", serif;
+}
+
+
+.nav-bar {
+    background-color: #ffffff;
+    top: 0;
+    position: sticky;
+    box-shadow: 0px 1px 5px black;
+    z-index: 100;
+    /* ให้ nav อยู่ด้านบน */
+}
+
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.nav-con {
+    display: flex;
+    align-items: center;
+    height: auto;
+    justify-content: space-between;
+}
+
+.nav-con ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-con ul a {
+
+    text-decoration: none;
+    color: black;
+    padding: 0.1rem 1rem;
+}
+
+.menu-bar li {
+    display: flex;
+    position: relative;
+    padding: 15px;
+}
+
+.dropdown-bar li {
+    text-align: left;
+    background-color: #ffffff;
+    width: 100%;
+    transition: 0.5s;
+
+}
+
+.menu-bar li:hover {
+    background-color: #658fbd;
+    text-decoration: underline;
+    height: auto;
+    border-radius: 5px;
+
+}
+
+.dropdown-bar {
+    position: absolute;
+    display: block;
+    top: 100%;
+    width: 300px;
+    flex-direction: column;
+    left: 0;
+    opacity: 0;
+    border-radius: 0 0 5px 5px;
+    visibility: hidden;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+
+}
+
+.dropdown:hover .dropdown-bar {
+    opacity: 100%;
+    visibility: visible;
+}
+
+.dropdown img {
+    margin-top: 5px;
+    position: absolute;
+    margin-left: 0.5rem;
+    width: 14px;
+}
+
+.bt-login {
+    & a {
+        text-decoration: none;
+        color: aliceblue;
+        display: inline-block;
+        background-color: #3674B5;
+        padding: 1rem 0.6rem;
+        border-radius: 5px;
+        transition: transform 0.5s ease;
+    }
+
+
+}
+
+
+.bt-login a:hover {
+    background-color: rgb(0, 225, 255);
+    transform: scale(0.9);
+
+}
+
+.logo-1 {
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+
+    & img {
+        width: 80px;
+        height: auto;
+    }
+
+
+
+
+}
+
+
+/*ส่วนหัว*/
+.main-header {
+    height: 500px;
+    width: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://cf.bstatic.com/xdata/images/hotel/max1280x900/243054747.jpg?k=067f30eb7007681841183a68436e2210fa69d77403afcc92594c2eab9d1720b2&o=&hp=1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    overflow: hidden;
+}
+
+
+.content-header {
+    color: rgb(255, 255, 255);
+    margin-top: 5rem;
+    height: auto;
+    text-align: center;
+    /*    width: 800px;
+    margin-left: 5rem;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-header {
+    position: relative;
+
+}
+
+
+.content-header-p {
+    font-size: 20px;
+    padding: 1rem;
+}
+
+.content-header button {
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.content-header h1 {
+    font-size: 40px;
+}
+
+.button-learn a {
+    margin: 1rem;
+    display: inline-block;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    transition: transform 0.5s ease;
+    border-radius: 5px;
+
+
+}
+
+.button-learn a:hover {
+    background-color: #56bccef3;
+    transform: scale(0.9);
+
+}
+
+
+.header-credit {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    font-size: 14px;
+
+    & a {
+        color: #A1E3F9;
+    }
+}
+
+
+/*แทบนำทาง*/
+
+.breadcrumbs {
+    padding: 10px;
+}
+
+.breadcrumbs-item {
+    display: inline-block;
+}
+
+.breadcrumbs-item:not(:last-of-type)::after {
+    content: '/';
+    margin: 0 5px;
+    color: #cdcccc;
+}
+
+.breadcrumbs-link {
+    text-decoration: none;
+    color: #a4a3a3;
+}
+
+.breadcrumbs-link:hover {
+    text-decoration: underline;
+}
+
+.breadcrumbs-link-active {
+    color: #D1F8EF;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ส่วนล่างเว็บ*/
+footer {
+    background-color: #b3aaaa;
+    margin-top: 10rem;
+}
+
+.foot-grid {
+
+    padding: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+
+
+}
+
+.foot-grid-1 {
+    grid-column: 1/2;
+
+}
+
+.foot-grid-2 {
+    grid-column: 2/3;
+
+    & ul {
+        list-style: none;
+    }
+}
+
+
+
+
+.foot-grid-3 {
+    grid-column: 3/4;
+
+}
+
+.foot-lisent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/4;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    background-color: #063362;
+}
+
+
+.foot-grid-1 h4 {
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.foot-grid-2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.foot-grid-2 p {
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.foot-grid-3 {
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-grid-3 p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.foot-grid-2 .foot-nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.foot-nav a {
+    text-decoration: none;
+    color: #063362;
+
+}
+
+.logo-info {
+    margin: -2rem;
+    display: flex;
+    color: black;
+    align-items: center;
+    text-decoration: none;
+
+    & img {
+        object-fit: cover;
+        width: 100px;
+        height: auto;
+    }
+}
+
+.about-us {
+    padding-left: 3rem;
+
+    & p {
+        color: #063362;
+    }
+}
+
+.grid-item-contact svg {
+    max-width: 30px;
+    margin: 0 1rem 0 0;
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.grid-item-contact a {
+    display: flex;
+    margin: 0.5rem 0;
+    color: #063362;
+    text-decoration: none;
+
+}
+
+
+body {
+    position: relative;
+}
+
+#btt {
+    right: 1rem;
+    bottom: 1rem;
+    border: none;
+    position: fixed;
+    display: none;
+    box-shadow: 0 0 5px;
+    max-width: 50px;
+    max-height: 50px;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+
+    & img {
+        width: 50px;
+        height: auto;
+        border: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*550px*/
+
+
+/*420px*/
+@media screen and (max-width : 550px) {
+
+    *{
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .nav-bar {
+        box-shadow: none;
+        position: static;
+        padding-bottom: 2rem ;
+    }
+
+    
+
+    .nav-con {
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-con .menu-bar {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-bar li {
+        padding: 15px;
+        visibility: visible;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .dropdown {
+        display: flex;
+        flex-direction: column;
+
+        & li {
+            height: 100%;
+            
+        }
+        & a {
+            padding: 1rem 0;
+        }
+    }
+
+    .dropdown-bar {
+        position: static;
+        display: none;
+        flex-direction: column;
+        visibility: visible;
+        opacity: 100%;
+        border: none;
+        box-shadow: none;
+
+
+
+        & li {
+            display: flex;
+            margin: 0;
+            padding: 0;
+            justify-content: left;
+           
+
+        }
+        & li a {
+            font-size: 15px;
+            padding: 1rem 0;
+            margin-left:10rem;
+            color: rgb(28, 26, 59);
+        }
+    
+    }
+
+    .main-header {
+        height: 1000px;
+        width: auto;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://cf.bstatic.com/xdata/images/hotel/max1280x900/243054747.jpg?k=067f30eb7007681841183a68436e2210fa69d77403afcc92594c2eab9d1720b2&o=&hp=1);
+        background-size: cover;
+        background-position: center;
+        background-repeat: repeat;
+        overflow: hidden;
+        margin-bottom:3rem ;
+    }
+    .main-header .container{
+        height: 100%;
+    }
+    .content-header-p {
+        font-size: 20px;
+        padding: 1rem;
+        margin-bottom: 5rem;
+
+        
+    }
+    
+    .content-header {
+        color: rgb(255, 255, 255);
+        margin-top: 0;
+        height: 1000px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 0;
+        
+    }
+
+
+
+
+    /*ส่วนท้าย*/
+    .foot-grid{
+        align-items: center;
+        justify-content: left;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo-info{
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+        margin: 2rem 0;
+    }
+
+    .foot-grid-1 {
+        grid-column: 1/2;
+    
+    }
+    
+    .foot-grid-2 {
+        width: 100%;
+        
+        grid-column:1/2;
+        & ul {
+            list-style: none;
+        }
+    }
+    
+    
+    .foot-grid-3 {
+        grid-column: 1/2;
+    
+    }
+    
+    .about-us{
+        padding: 0;
+    }
+    
+}

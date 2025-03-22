@@ -1,0 +1,138 @@
+.main-con{
+    margin: 3rem 0;
+}
+
+
+.slogan-name{
+    color: #163453;
+    margin: 0.6rem 0;
+}
+.slogan-1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+
+    & .sloga-info-1 {
+        grid-column: 1/2;
+        padding: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        grid-row: 1/2;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    & .slogan-img {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        
+    }
+
+    & img {
+        width: 100%;
+        border-radius: 20px;
+        object-fit: cover;
+        
+    }
+
+    & figcaption {
+        text-align: center;
+    }
+}
+
+.slogan-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    margin: 2rem 0;
+
+
+
+    & .sloga-info-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        grid-column: 2/3;
+        grid-row: 1/2;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    & .slogan-2 .slogan-img {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    & .slogan-img img{
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    & figcaption {
+        text-align: center;
+    }
+}
+
+
+
+
+.main-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & h2 {
+        color: #163453;
+        font-size: 30px;
+    }
+    & p {
+
+        margin: 2rem 0;
+    }
+   
+    & figure {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem 0;
+    }
+    & figure img{
+        
+        max-width: 800px;
+        width: 100%;
+        border-radius: 10px;
+
+    }
+    & figure figcaption{
+        margin: 1rem 0;
+    }
+}
+
+.link-credit{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+@media screen and (max-width : 420px) {
+    .slogan-1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .slogan-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

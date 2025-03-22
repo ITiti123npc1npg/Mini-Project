@@ -1,0 +1,39 @@
+
+//Travel
+https://www.flaticon.com/free-icon/distance_2923404?term=travel&page=1&position=38&origin=search&related_id=2923404 
+
+//map
+https://icons.getbootstrap.com/icons/geo-alt/
+
+
+//Food
+https://boxicons.com/?query=food
+
+
+
+hotel
+https://boxicons.com/?query=hotel
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAN5JREFUSEtjZKAxYKSx+QyjFhAMYfoFEZtx0n+Qc36dnUdVS+GGEWsBTB2WsPn6n5HhBPOffyk/Lix4AJPHaQG7cdLU/wwMsSCFjAwMi3+enZcNYuOxAGwmIwPDG2YGFr1vZ2c9h/IhdiH7AGp4FrIrGRkYpoEsIWQBVM+iX2fnxeO0gM046RMDAwMvWjB8/nV2Hh+RFjz7dXaeNC0tgCcWrHFAhSDCbwHIa+RGMixYYcmdmskUJcpwWkAw7xOpYOAsoLSoQC8RSI4DQiE0cBYQchm58lQtmrE5YuhbAAAI85AZdJRycAAAAABJRU5ErkJggg=="/>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(6, 51, 98, 1);transform: ;msFilter:;"><circle cx="8" cy="11" r="3"></circle><path d="M18.205 7H12v8H4V6H2v14h2v-3h16v3h2v-4c0-.009-.005-.016-.005-.024H22V11c0-2.096-1.698-4-3.795-4z"></path></svg>
+
+
+
+ของฝาก
+https://icons.getbootstrap.com/icons/bag-heart/
+
+<i class="bi bi-bag-heart"></i>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-heart" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0M14 14V5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1M8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
+</svg>
+
+
+
+info
+https://icons.getbootstrap.com/icons/info/
+<i class="bi bi-info"></i>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info" viewBox="0 0 16 16">
+  <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+</svg>
+
+
+ลูกศรซ้าย

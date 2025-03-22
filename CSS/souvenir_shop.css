@@ -1,0 +1,88 @@
+
+.content-header{
+    color: rgb(255, 255, 255);
+    margin-top: 5rem;
+    height: auto;
+    text-align: center;
+    /*    width: 800px;
+    margin-left: 5rem;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.content-header-p{
+    font-size: 20px;
+    padding: 1rem;
+}
+.main-header{
+    height: 500px;
+    width: auto;
+    background-image: url(../mini_project_img/journey.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    overflow: hidden;
+}
+
+.content-header button{
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.content-header h1{
+    font-size: 40px;
+}
+
+.button-learn a{
+    margin: 2rem;
+    display: inline-block;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    padding: 0.8rem;
+    transition: 0.3s;
+
+}
+.button-learn a:hover{
+    background-color: #56bccef3;
+
+}
+
+
+.content-con{
+    justify-content: center;
+    align-items: center;
+}
+.content-con h1{
+    text-align: center;
+    margin: 3rem 0;
+    font-size: 35px;
+}
+.souvenir h2{
+    margin: 1.5rem 0;
+
+}
+.souvenir .sou-info .link-credit{
+    margin: 1rem 0;
+}
+.souvenir .sou-img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+    & img{
+        max-width: 900px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+}
+.souvenir .sou-img-credit{
+    margin: 1.5rem 0;
+    text-align: center;
+}

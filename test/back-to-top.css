@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+header{
+    background-color: #333;
+    text-align: center;
+    padding: 3rem;
+    color: aliceblue;
+    margin: 0 0 5rem 0;
+    
+}
+main{
+    padding: 2rem;
+    
+}
+
+footer{
+    background-color: #333;
+    color: aliceblue;
+    padding: 2rem;
+    text-align: center;
+}
+
+
+body{
+    position: relative;
+}
+
+#btt{
+    right: 1rem;
+    bottom: 1rem;
+    padding: 0.5rem;
+    border: none;
+    position: fixed;
+    display: none;
+
+}

@@ -1,0 +1,29 @@
+
+.content-header{
+    color: rgb(255, 255, 255);
+    border: 1px solid red;
+    width: 800px;
+    /*margin-left: 5rem;*/
+    margin-top: 5rem;
+    height: auto;
+}
+
+.main-header{
+    height: 450px;
+    width: auto;
+
+    background-image: url(mini_project_img/zampanbok.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    overflow: hidden;
+}
+
+.content-header button{
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.content-header h1{
+    font-size: 40px;
+}

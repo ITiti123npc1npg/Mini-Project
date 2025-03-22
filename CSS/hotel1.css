@@ -1,0 +1,97 @@
+.content-header{
+    color: rgb(255, 255, 255);
+    margin-top: 5rem;
+    height: auto;
+    text-align: center;
+    /*    width: 800px;
+    margin-left: 5rem;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.main-header {
+    position: relative;
+    
+}
+
+
+.content-header-p{
+    font-size: 20px;
+    padding: 1rem;
+}
+.main-header{
+    height: 500px;
+    width: auto;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(https://cf.bstatic.com/xdata/images/hotel/max1280x900/243054747.jpg?k=067f30eb7007681841183a68436e2210fa69d77403afcc92594c2eab9d1720b2&o=&hp=1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    overflow: hidden;
+}
+
+.content-header button{
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.content-header h1{
+    font-size: 40px;
+}
+
+.button-learn a{
+    margin: 2rem;
+    display: inline-block;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    padding: 0.8rem;
+    transition: 0.3s;
+
+}
+.button-learn a:hover{
+    background-color: #56bccef3;
+
+}
+
+
+.header-credit{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white; 
+    font-size: 14px;
+    & a {
+        color: #A1E3F9;
+    }
+}
+
+
+/*แทบนำทาง*/
+
+.breadcrumbs {
+    padding: 10px;
+}
+.breadcrumbs-item{
+    display: inline-block;
+}
+.breadcrumbs-item:not(:last-of-type)::after{
+    content: '/';
+    margin: 0 5px;
+    color: #cdcccc;
+}
+.breadcrumbs-link{
+    text-decoration: none;
+    color: #a4a3a3;
+}
+.breadcrumbs-link:hover{
+    text-decoration: underline;
+}
+.breadcrumbs-link-active{
+    color: #D1F8EF;
+    font-weight: 500;
+}
